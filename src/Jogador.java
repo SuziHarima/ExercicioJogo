@@ -11,6 +11,10 @@ public class Jogador {
         this.numeroTentativas = numeroTentativas;
     }
 
+    public Jogador(String nome){
+        this.nome = nome;
+    }
+
     public Jogador() {
     }
 
